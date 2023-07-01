@@ -1,0 +1,52 @@
+/* HomePage.css */
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container{
+  background-color: aqua;
+ display: flex;
+}
+nav li{
+  margin-left: 30%;
+  margin-top: 3%;
+}
+.content{
+  margin-left:30% ;
+  justify-content: center;
+}
+/* .btn{
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+} */
